@@ -64,32 +64,42 @@ def get_connection():
     except Exception as err:
         raise err
 
-def fetch_data(query, batch_size=1000, is_stored_procedure=False):
-    """Fetch data from the database."""
+def fetch_data(query, batch_size=1000, is_stored_procedure=False, placeholder_count=3):
+    """Fetch data from the database, handling stored procedures and temporary tables."""
     connection = get_connection()
     try:
         cursor = connection.cursor()
-        
-        if is_stored_procedure:
-            cursor.execute(query)
-        else:
-            cursor.execute(query)
+        # Execute with SET NOCOUNT ON to improve pyodbc handling of temp tables
+        cursor.execute("SET NOCOUNT ON; " + query)
 
-        # Check if there is a result set
+        # Retrieve column names dynamically
         columns = cursor.description
         if not columns:
-            return []
-        
+            print("No columns found; likely an empty result set.")
+            return []  # No columns and no rows
+
+        column_names = [column[0] for column in columns]
+        # print(f"Detected columns: {column_names}")
+
         results = []
-        columns = [column[0] for column in cursor.description]
+        # Fetch rows in batches to avoid memory issues with large data sets
         while True:
             rows = cursor.fetchmany(batch_size)
             if not rows:
                 break
             for row in rows:
-                results.append(dict(zip(columns, row)))
+                results.append(dict(zip(column_names, row)))
+
+        # If no results but columns exist, generate dynamic placeholders
+        if not results and column_names:
+            print("No rows returned; generating placeholder data.")
+            placeholder = {col: 0 for col in column_names}  # Default value of 0 for each column
+            results = [placeholder] * placeholder_count  # Repeat placeholder
+
+        # print(f"Fetched data: {results}")
         return results
     except Exception as err:
+        print(f"Error fetching data: {err}")
         raise err
     finally:
         cursor.close()
