@@ -75,7 +75,6 @@ def fetch_data(query, batch_size=1000, is_stored_procedure=False, placeholder_co
         # Retrieve column names dynamically
         columns = cursor.description
         if not columns:
-            print("No columns found; likely an empty result set.")
             return []  # No columns and no rows
 
         column_names = [column[0] for column in columns]
@@ -92,7 +91,6 @@ def fetch_data(query, batch_size=1000, is_stored_procedure=False, placeholder_co
 
         # If no results but columns exist, generate dynamic placeholders
         if not results and column_names:
-            print("No rows returned; generating placeholder data.")
             placeholder = {col: 0 for col in column_names}  # Default value of 0 for each column
             results = [placeholder] * placeholder_count  # Repeat placeholder
 
