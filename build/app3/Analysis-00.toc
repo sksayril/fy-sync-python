@@ -1,9 +1,11 @@
-(['C:\\Users\\Admin\\Downloads\\test\\fy-sync-python\\app3.py'],
- ['C:\\Users\\Admin\\Downloads\\test\\fy-sync-python'],
+(['C:\\TaskFolder\\5ich_ventureProjects\\Fastswhoitsle\\fy-sync-python\\app3.py'],
+ ['C:\\TaskFolder\\5ich_ventureProjects\\Fastswhoitsle\\fy-sync-python'],
  [],
  ['C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_pyinstaller',
   'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\playwright\\_impl\\__pyinstaller',
   'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\__pyinstaller',
+  'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\rapidfuzz\\__pyinstaller',
+  'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\yt_dlp\\__pyinstaller',
   'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks',
   'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib'],
  {},
@@ -20,7 +22,7 @@
    'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('app3',
-   'C:\\Users\\Admin\\Downloads\\test\\fy-sync-python\\app3.py',
+   'C:\\TaskFolder\\5ich_ventureProjects\\Fastswhoitsle\\fy-sync-python\\app3.py',
    'PYSOURCE')],
  [('inspect',
    'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\inspect.py',
@@ -301,11 +303,11 @@
   ('ast',
    'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ast.py',
    'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
-   'PYMODULE'),
   ('stringprep',
    'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
    'PYMODULE'),
   ('tracemalloc',
    'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
@@ -370,56 +372,56 @@
   ('pyodbc.cp312-win_amd64.pyd',
    'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyodbc.cp312-win_amd64.pyd',
    'EXTENSION'),
-  ('api-ms-win-crt-heap-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-environment-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140.dll',
    'BINARY'),
   ('api-ms-win-crt-convert-l1-1-0.dll',
    'C:\\Program '
    'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-filesystem-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-string-l1-1-0.dll',
    'C:\\Program '
    'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-stdio-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-runtime-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-math-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-process-l1-1-0.dll',
    'C:\\Program '
    'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-process-l1-1-0.dll',
    'BINARY'),
-  ('VCRUNTIME140.dll',
-   'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140.dll',
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-conio-l1-1-0.dll',
    'C:\\Program '
    'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
    'BINARY'),
   ('libcrypto-3.dll',
    'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\libcrypto-3.dll',
@@ -431,89 +433,29 @@
    'C:\\Program '
    'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-errorhandling-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l2-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-1.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-datetime-l1-1-0.dll',
    'C:\\Program '
    'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-console-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-localization-l1-2-0.dll',
    'C:\\Program '
    'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
+  ('api-ms-win-core-timezone-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l1-1-0.dll',
+  ('api-ms-win-core-synch-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-fibers-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-libraryloader-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-handle-l1-1-0.dll',
    'C:\\Program '
@@ -523,20 +465,80 @@
    'C:\\Program '
    'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-core-namedpipe-l1-1-0.dll',
    'C:\\Program '
    'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-string-l1-1-0.dll',
    'C:\\Program '
    'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
+  ('api-ms-win-core-file-l2-1-0.dll',
    'C:\\Program '
-   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-17.0.11.9-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY')],
  [],
  [],
  [('base_library.zip',
-   'C:\\Users\\Admin\\Downloads\\test\\fy-sync-python\\build\\app3\\base_library.zip',
+   'C:\\TaskFolder\\5ich_ventureProjects\\Fastswhoitsle\\fy-sync-python\\build\\app3\\base_library.zip',
    'DATA')])

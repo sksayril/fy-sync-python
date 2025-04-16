@@ -1,4 +1,4 @@
-('C:\\Users\\Admin\\Downloads\\test\\fy-sync-python\\build\\app3\\PYZ-00.pyz',
+('C:\\TaskFolder\\5ich_ventureProjects\\Fastswhoitsle\\fy-sync-python\\build\\app3\\PYZ-00.pyz',
  [('_compat_pickle',
    'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compat_pickle.py',
    'PYMODULE'),
